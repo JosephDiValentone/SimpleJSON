@@ -12,7 +12,7 @@ class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
-
+    let dataGrabber = DataManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
